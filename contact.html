@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,500&family=Italiana&family=Poppins&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body class="bg-third">
+
+  <div class="flex w-full h-screen overflow-hidden">
+
+    <!-- Form -->
+    <div class="relative w-3/5 h-full flex flex-col justify-center">
+      <div class="absolute bg-[#27807D] rounded-full p-2 bottom-8 left-1/2 transform -translate-x-1/2 w-[48px] h-[48px] hover:bg-[#24989C] transition-all">
+        <a href="index.html">
+          <img src="/images/arrow-back.svg" class="w-full h-full" alt="">
+        </a>
+      </div>
+      <div class="relative w-3/5 mx-auto gap-8">
+        <div class="p-8">
+        <form action="thank-you.html">
+          <h1 class="text-center font-italiana text-5xl text-primary mb-8">We'd love to hear more about you and your real estate needs.</h1>
+          <div class="mb-3">
+            <input type="text" id="name" class="w-full bg-primary text-third rounded-xl px-6 py-3" name="name" placeholder="Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" id="email" class="w-full bg-primary text-third rounded-xl px-6 py-3" name="email" placeholder="E-Mail" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" id="phone" class="w-full bg-primary text-third rounded-xl px-6 py-3" name="phone" placeholder="Phone"required>
+          </div>
+          <div class="mb-8">  
+            <textarea type="textarea" class="w-full bg-primary text-third rounded-xl px-6 pt-3 pb-16" name="message"  placeholder="Questions / Interests"></textarea>
+          </div>
+          <button class="w-full bg-secondary hover:bg-[#DB507D] text-primary px-6 py-3 rounded-xl transition-all">Send</button>
+        </form>
+        </div>
+        <img src="/images/bg-vector-2.svg" class="absolute -z-20 w-full top-16 left-0 right-0" alt="">
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="w-2/5 h-full bg-secondary">
+      <img src="images/door.jpg" class="w-full h-full object-cover" alt="">
+    </div>
+
+  </div>
+
+</body>
+</html>
