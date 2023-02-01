@@ -521,8 +521,8 @@ video {
   position: relative;
 }
 
-.top-16 {
-  top: 4rem;
+.top-\[280px\] {
+  top: 280px;
 }
 
 .left-0 {
@@ -619,13 +619,13 @@ video {
   width: 48px;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-7xl {
@@ -963,6 +963,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:top-16 {
+    top: 4rem;
+  }
+
   .lg\:bottom-20 {
     bottom: 5rem;
   }
