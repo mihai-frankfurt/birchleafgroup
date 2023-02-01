@@ -575,6 +575,10 @@ video {
   margin-right: 0px;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-32 {
   margin-bottom: 8rem;
 }
@@ -626,6 +630,10 @@ video {
 
 .max-w-7xl {
   max-width: 80rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .-translate-x-1\/2 {
@@ -767,6 +775,10 @@ video {
 
 .p-0 {
   padding: 0px;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-6 {
@@ -1023,12 +1035,12 @@ video {
     gap: 4rem;
   }
 
-  .lg\:p-0 {
-    padding: 0px;
-  }
-
   .lg\:p-6 {
     padding: 1.5rem;
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
   }
 
   .lg\:px-6 {
