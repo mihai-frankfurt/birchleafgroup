@@ -924,8 +924,20 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:gap-16 {
+    gap: 4rem;
+  }
+
   .md\:pb-\[200x\] {
     padding-bottom: 200x;
+  }
+
+  .md\:pb-\[100px\] {
+    padding-bottom: 100px;
+  }
+
+  .md\:pb-\[200px\] {
+    padding-bottom: 200px;
   }
 }
 
@@ -961,6 +973,14 @@ video {
 
   .lg\:gap-16 {
     gap: 4rem;
+  }
+
+  .lg\:gap-24 {
+    gap: 6rem;
+  }
+
+  .lg\:p-6 {
+    padding: 1.5rem;
   }
 
   .lg\:px-6 {
