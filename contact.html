@@ -12,16 +12,11 @@
 </head>
 <body class="bg-third">
 
-  <div class="flex w-full h-screen overflow-hidden">
-
+  <div class="flex flex-col-reverse md:flex-row w-full h-auto md:h-screen overflow-hidden">
     <!-- Form -->
-    <div class="relative w-3/5 h-full flex flex-col justify-center">
-      <div class="absolute bg-[#27807D] rounded-full p-2 bottom-8 left-1/2 transform -translate-x-1/2 w-[48px] h-[48px] hover:bg-[#24989C] transition-all">
-        <a href="index.html">
-          <img src="/images/arrow-back.svg" class="w-full h-full" alt="">
-        </a>
-      </div>
-      <div class="relative w-3/5 mx-auto gap-8">
+    <div class="relative w-full md:w-3/5 h-auto flex flex-col justify-center">
+      <!-- Fields -->
+      <div class="relative w-full lg:w-3/5 mx-auto gap-8">
         <div class="p-8">
         <form action="thank-you.html">
           <h1 class="text-center font-italiana text-5xl text-primary mb-8">We'd love to hear more about you and your real estate needs.</h1>
@@ -37,16 +32,23 @@
           <div class="mb-8">  
             <textarea type="textarea" class="w-full bg-primary text-third rounded-xl px-6 pt-3 pb-16" name="message"  placeholder="Questions / Interests"></textarea>
           </div>
-          <button class="w-full bg-secondary hover:bg-[#DB507D] text-primary px-6 py-3 rounded-xl transition-all">Send</button>
+          <button class="w-full bg-secondary hover:bg-[#DB507D] text-primary px-6 py-3 rounded-xl transition-all mb-24 md:mb-16 lg:mb-0">Send</button>
         </form>
         </div>
+        <!-- Background Lines -->
         <img src="/images/bg-vector-2.svg" class="absolute -z-20 w-full top-16 left-0 right-0" alt="">
+      </div>
+      <!-- Back Button -->
+      <div class="absolute bg-[#27807D] rounded-full p-2 bottom-8 left-1/2 transform -translate-x-1/2 w-[48px] h-[48px] hover:bg-[#24989C] transition-all">
+        <a href="index.html">
+          <img src="/images/arrow-back.svg" class="w-full h-full" alt="">
+        </a>
       </div>
     </div>
 
     <!-- Image -->
-    <div class="w-2/5 h-full bg-secondary">
-      <img src="images/door.jpg" class="w-full h-full object-cover" alt="">
+    <div class="w-full md:w-2/5 h-[400px] md:h-full bg-secondary">
+      <img src="images/door.jpg" class="w-full h-full object-cover object-bottom" alt="">
     </div>
 
   </div>
